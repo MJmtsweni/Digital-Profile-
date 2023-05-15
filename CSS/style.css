@@ -770,6 +770,10 @@ div {
   display: block;
 }
 
+.modal {
+  position: relative;
+  width: 100%;
+}
 
 
 
