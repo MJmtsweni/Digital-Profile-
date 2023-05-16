@@ -297,6 +297,72 @@ div {
     }
   }
 
+  .home-main {
+     display: flex;
+      justify-content: center;
+      height: 100vh;
+      padding: 20px;
+  }
+  .left-img {
+      bottom: 80px;
+    position: absolute;
+    left: 54px;
+  }
+  .right-img {
+    top: 56px;
+    position: absolute;
+    right: 54px;
+  }
+ .left-img, .right-img {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .left-img img, .right-img img {
+    width: 22vw;
+    height: 30vh;
+ }
+ .center-content {
+  flex: 3;
+  text-align: center;
+  padding: 0 50px;
+ }
+ .main-title {
+    text-align: center;
+    margin-top: 2em;
+ }
+ .main-quote {
+    padding-top: 60px;
+ }
+ .left-img img, .right-img img {
+   max-width: 100%;
+   height: auto;
+ }
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10rem;
+    z-index: 1;
+}
+.fixed-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+}
+.tab-item {
+  float: left;
+}
+.text-center {
+    text-align: center!important;
+}
+.tabs a {
+    padding: 3rem;
+}
   body.offcanvas {
     overflow-x: hidden;
   }
@@ -584,14 +650,10 @@ div {
       text-align: left;
     }
   }
-  #main .story-entry > img {
-    float: right;
-    width: 10%;
-    margin-bottom: 30px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    border-radius: 50%;
+  #main .story-entry .story-img {
+    display: flex;
+  justify-content: center;
+  align-items: center;
   }
   @media screen and (max-width: 768px) {
     #main .story-entry > img {
