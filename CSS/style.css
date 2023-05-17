@@ -300,18 +300,17 @@ div {
   .home-main {
      display: flex;
       justify-content: center;
-      height: 100vh;
       padding: 20px;
   }
   .left-img {
-      bottom: 80px;
+    bottom: 123px;
     position: absolute;
-    left: 54px;
+    left: 30px;
   }
   .right-img {
-    top: 56px;
+    top: 126px;
     position: absolute;
-    right: 54px;
+    right: 30px;
   }
  .left-img, .right-img {
     flex: 1;
@@ -335,10 +334,7 @@ div {
  .main-quote {
     padding-top: 60px;
  }
- .left-img img, .right-img img {
-   max-width: 100%;
-   height: auto;
- }
+ 
 .tabs {
     display: flex;
     flex-wrap: wrap;
