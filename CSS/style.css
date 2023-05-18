@@ -621,7 +621,7 @@ div {
   }
   
   #main .padding {
-    padding: 50px;
+    padding: 30px;
   }
   @media screen and (max-width: 768px) {
     .padding {
@@ -789,6 +789,7 @@ div {
   .Partnerships-blog a img {
     width: 100%;
     height: 24vh;
+    border-radius: 5px;
   }
   @media screen and (max-width: 768px) {
     .fh5co-blog {
@@ -992,7 +993,7 @@ blockquote {
   border-radius: 50%;
 }
 .sectionH {
-  height: 500px; /* Adjust the height as needed */
+  height: 400px; /* Adjust the height as needed */
   background-color: #f7f7f7;
   display: flex;
   justify-content: center;
@@ -1004,11 +1005,13 @@ blockquote {
   background-color: #fff;
   text-align: center;
   padding: 20px;
+  border-radius: 5px;
 }
 
 .sectionh img {
   width: 100%;
   height: 60%;
+  border-radius: 15px;
 }
 
 tm.container {
@@ -1105,33 +1108,40 @@ tm.container {
     .portfolio-wrapper {
       width: 250px; } }
 
-.about-me__text {
-  width: 44%;
-  margin-right: 80px;
-  text-align: center; }
+  .about-me__text {
+     width: 44%;
+    margin-right: 80px;
+    text-align: center; }
+
   .about-me__text .universal-h2 {
     color: #fff;
     padding-bottom: 20px;
     margin-bottom: 25px; }
+
   .about-me__text p {
-    margin-bottom: 35px;
+    margin-bottom: 5px;
     line-height: 24px;
     color: #c18f59; }
+
     .about-me__text p span {
       font-size: 48px;
       color: #fff; }
+
     @media (max-width: 620px) {
       .about-me__text p {
         margin-bottom: 20px;
         font-size: 14px;
         line-height: 19px; } }
+
   .about-me__text h4 {
     margin-bottom: 7px;
     font-size: 25px;
     color: #c18f59; }
+
   .about-me__text .p-white {
     margin-bottom: 0;
     color: #fff; }
+
   @media (max-width: 1250px) {
     .about-me__text {
       width: 48%;
@@ -1142,7 +1152,11 @@ tm.container {
       margin-right: 0; } }
 
       .about-me-slider {
-        position: relative; }
+        position: relative;}
+
+        .about-me-single-slide {
+          height: 90%;}
+
         .about-me-slider .slick-arrow {
           position: absolute;
           bottom: -18%; }
@@ -1156,16 +1170,3 @@ tm.container {
           @media (max-width: 520px) {
             .about-me-slider .slick-next {
               right: 34%; } }
-
-.about-me-bckg {
-  position: absolute;
-  background-image: url("../img/head-bg.jpg");
-  background-position: center;
-  background-size: cover;
-  height: 400px;
-  top: -75px;
-  right: 0;
-  height: calc(100% + 150px);
-  width: 70%;
-  z-index: -1;
-}
