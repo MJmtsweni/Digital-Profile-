@@ -297,6 +297,68 @@ div {
     }
   }
 
+  .home-main {
+     display: flex;
+      justify-content: center;
+      padding: 20px;
+  }
+  .left-img {
+    bottom: 123px;
+    position: absolute;
+    left: 30px;
+  }
+  .right-img {
+    top: 126px;
+    position: absolute;
+    right: 30px;
+  }
+ .left-img, .right-img {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .left-img img, .right-img img {
+    width: 22vw;
+    height: 30vh;
+ }
+ .center-content {
+  flex: 3;
+  text-align: center;
+  padding: 0 50px;
+ }
+ .main-title {
+    text-align: center;
+    margin-top: 2em;
+ }
+ .main-quote {
+    padding-top: 60px;
+ }
+ 
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10rem;
+    z-index: 1;
+}
+.fixed-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+}
+.tab-item {
+  float: left;
+}
+.text-center {
+    text-align: center!important;
+}
+.tabs a {
+    padding: 3rem;
+}
   body.offcanvas {
     overflow-x: hidden;
   }
@@ -584,14 +646,10 @@ div {
       text-align: left;
     }
   }
-  #main .story-entry > img {
-    float: right;
-    width: 10%;
-    margin-bottom: 30px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    border-radius: 50%;
+  #main .story-entry .story-img {
+    display: flex;
+  justify-content: center;
+  align-items: center;
   }
   @media screen and (max-width: 768px) {
     #main .story-entry > img {
@@ -806,6 +864,70 @@ div {
 
 .modal::-webkit-scrollbar-thumb:hover {
   background-color: #555;
+}
+
+.vertical-center {
+  display: flex;
+  
+  justify-content: center;
+  min-height: 100vh;
+  padding-top: 4rem;
+}
+
+#section1 {
+  flex-direction: column;
+  text-align: right;
+  padding-right: 40px;
+  
+}
+
+#section2 {
+  flex-direction: column;
+  margin-top: 30px;
+  
+}
+
+#section1 img {
+  width: 28vw;
+  height: 59vh;
+  margin-bottom: 20px;
+}
+
+blockquote {
+  padding: 10px 13px;
+  margin: 0 0 10px;
+  font-weight: 400;
+  font-size: 13px;
+  border-left: 7px solid #f2dbc8;
+}
+#section2 .image-block {
+  background-color: #292f33;
+    width: 84%;
+    height: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    margin-top: 52px;
+}
+
+#section2 .white-block {
+  background-color: #292f33;
+  width: 100%;
+  height: 100%;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+#section2 .white-block p {
+  margin-bottom: 0;
+  font-size: 12px;
+  color: #f2dbc8;
+
+  
+  
 }
 
 
