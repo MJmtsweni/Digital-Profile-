@@ -1120,11 +1120,12 @@ tm.container {
   .about-me__text p {
     margin-bottom: 5px;
     line-height: 24px;
-    color: #c18f59; }
+    color: #c18f59;
+    font-family: 'system-ui'; }
 
     .about-me__text p span {
-      font-size: 48px;
-      color: #fff; }
+      font-size: 30px;
+      color: #000; }
 
     @media (max-width: 620px) {
       .about-me__text p {
