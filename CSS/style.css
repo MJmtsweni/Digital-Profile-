@@ -752,10 +752,10 @@ div {
     outline: none;
   }
 
-  .mobilisation-blog {
+  .Partnerships-blog {
     margin-bottom: 60px;
   }
-  .mobilisation-blog a img {
+  .Partnerships-blog a img {
     width: 100%;
     height: 24vh;
   }
@@ -764,7 +764,7 @@ div {
       width: 100%;
     }
   }
-  .mobilisation-blog .mobilisation-text {
+  .Partnerships-blog .Partnerships-text {
     margin-bottom: 30px;
     position: relative;
     background: #fff;
@@ -778,31 +778,31 @@ div {
     -o-box-shadow: 0px 6px 62px -6px rgba(0, 0, 0, 0.3);
     box-shadow: 0px 6px 62px -6px rgba(0, 0, 0, 0.3);
   }
-  .mobilisation-blog .mobilisation-text span {
+  .Partnerships-blog .Partnerships-text span {
     display: inline-block;
     margin-bottom: 20px;
   }
-  .mobilisation-blog .mobilisation-text span.posted_by {
+  .Partnerships-blog .Partnerships-text span.posted_by {
     color: rgba(0, 0, 0, 0.3);
     font-size: 18px;
   }
-  .mobilisation-blog .mobilisation-text span.comment {
+  .Partnerships-blog .Partnerships-text span.comment {
     float: right;
   }
-  .mobilisation-blog .mobilisation-text span.comment a {
+  .Partnerships-blog .Partnerships-text span.comment a {
     color: rgba(0, 0, 0, 0.3);
   }
-  .mobilisation-blog .mobilisation-text span.comment a i {
+  .Partnerships-blog .Partnerships-text span.comment a i {
     color: #ef6249;
     padding-left: 7px;
   }
-  .mobilisation-blog .mobilisation-text h3 {
+  .Partnerships-blog .Partnerships-text h3 {
     font-size: 18px;
     margin-bottom: 12px;
     font-weight: 400;
     line-height: 1.2;
   }
-  .mobilisation-blog .mobilisation-text h3 a {
+  .Partnerships-blog .Partnerships-text h3 a {
     color: rgba(0, 0, 0, 0.6);
   }
 .partnerships img {
@@ -826,7 +826,7 @@ div {
   float: left;
   margin: 0 auto;
 }
-.partnerships-entry .partnerships-img {
+.partner-entry .partner-img {
   width: 100%;
   float: left;
   overflow: hidden;
@@ -835,17 +835,17 @@ div {
   margin-bottom: 25px;
   border-radius: 50%;
 }
-.partnerships-entry .desc {
+.partner-entry .desc {
   padding: 25px;
   text-align: center;
 }
-.partnerships-entry .desc h3 a{
+.partner-entry .desc h3 a{
   color: #000;
 }
-.partnerships-entry .desc h3{
+.partner-entry .desc h3{
   margin-bottom: 11px;
 }
-.partnerships-entry .desc .lead {
+.partner-entry .desc .lead {
   margin-top: 1em;
   display: block;
 }
