@@ -27,14 +27,14 @@ body {
   }
 
 a {
-    color: #228896;
+    color: #e9b151;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
   }
 
 a:hover, a:active, a:focus {
-    color: #228896;
+    color: #e9b151;
     outline: none;
     text-decoration: none !important;
   }
@@ -44,7 +44,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
     color: #000;
-    font-family: "Roboto", Arial, sans-serif;
+    font-family: "Times";
     font-weight: 400;
     margin: 0 0 30px 0;
   }
@@ -57,16 +57,16 @@ h1, h2, h3, h4, h5, h6 {
   
 ::-webkit-selection {
     color: #fff;
-    background: #228896;
+    background: #e9b151;
   }
 
 ::-moz-selection {
     color: #fff;
-    background: #228896;
+    background: #e9b151;
   }
 ::selection {
     color: #fff;
-    background: #228896;
+    background: #e9b151;
   }
 div {
     display: block;
@@ -119,8 +119,8 @@ div {
 
 #side-nav #logo {
     text-align: center;
-    font-family: "Roboto", Arial, sans-serif;
-    font-weight: 700;
+    font-family: "Times";
+    font-weight: 500;
     margin-bottom: 0em;
     text-transform: uppercase;
     font-size: 28px;
@@ -185,7 +185,7 @@ div {
     bottom: 7px;
     left: 10px;
     right: 10px;
-    background-color: #228896;
+    background-color: #e9b151;
     visibility: hidden;
     -webkit-transform: scaleX(0);
     -moz-transform: scaleX(0);
@@ -264,7 +264,7 @@ div {
   #side-nav .menu-footer ul li a:hover, #side-nav .menu-footer ul li a:active, #side-nav .menu-footer ul li a:focus {
     text-decoration: none;
     outline: none;
-    color: #228896;
+    color: #e9b151;
   }
   #main {
     width: 80%;
@@ -693,7 +693,7 @@ div {
     color: #000;
   }
   #main .story-entry > div a:hover {
-    color: #228896;
+    color: #e9b151;
   }
   #main .story-entry > div h2 {
     font-size: 30px;
@@ -864,7 +864,7 @@ div {
   font-size: 15px;
 }
 .modal-footer .btn-primary {
-  background-color: #228896;
+  background-color: #e9b151;
 }
 .modal-footer .btn-primary:hover {
   background-color: #16727e;
