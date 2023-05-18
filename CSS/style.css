@@ -1109,12 +1109,13 @@ tm.container {
   .about-me__text {
      width: 44%;
     margin-right: 80px;
-    text-align: center; }
+    text-align: center;
+    padding: 7px; }
 
   .about-me__text .universal-h2 {
     color: #fff;
-    padding-bottom: 20px;
-    margin-bottom: 25px; }
+    padding-bottom: 7px;
+    margin-bottom: 7px; }
 
   .about-me__text p {
     margin-bottom: 5px;
@@ -1145,21 +1146,24 @@ tm.container {
       width: 48%;
       margin-right: 40px; } }
   @media (max-width: 992px) {
+   
     .about-me__text {
       width: 100%;
       margin-right: 0; } }
 
-      .about-me-slider {
-        position: relative;}
+    .about-me-slider {
+      position: relative;}
 
-        .about-me-single-slide {
-          height: 90%;}
+    .about-me-single-slide {
+      height: 90%;}
 
-        .about-me-slider .slick-arrow {
-          position: absolute;
-          bottom: -18%; }
-        .about-me-slider .slick-prev {
-          left: 40%; }
+    .about-me-slider .slick-arrow {
+     position: absolute;
+     bottom: -18%; }
+
+    .about-me-slider .slick-prev {
+     left: 40%; }
+
           @media (max-width: 520px) {
             .about-me-slider .slick-prev {
               left: 34%; } }
