@@ -1132,6 +1132,23 @@ tm.container {
     .about-me__text {
       width: 100%;
       margin-right: 0; } }
+
+      .about-me-slider {
+        position: relative; }
+        .about-me-slider .slick-arrow {
+          position: absolute;
+          bottom: -18%; }
+        .about-me-slider .slick-prev {
+          left: 40%; }
+          @media (max-width: 520px) {
+            .about-me-slider .slick-prev {
+              left: 34%; } }
+        .about-me-slider .slick-next {
+          right: 40%; }
+          @media (max-width: 520px) {
+            .about-me-slider .slick-next {
+              right: 34%; } }
+
 .about-me-bckg {
   position: absolute;
   background-image: url("../img/head-bg.jpg");
